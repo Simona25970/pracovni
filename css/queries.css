@@ -1,0 +1,234 @@
+@media(max-width:768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1rf));
+        display: unset;
+    }
+}
+
+@media(max-width: 414px) {
+
+    html,
+    body {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    .text h4 {
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .btn {
+        width: 163px;
+        height: 90px;
+    }
+
+    .heading-main h3 {
+        padding-top: 70px;
+    }
+
+    .heading-main h4 {
+        padding-top: 80px;
+    }
+}
+
+/***** Responsive Header *****/
+@media (max-width: 768px) {
+    header img {
+        width: 100%;
+    }
+
+    .header {
+        padding-left: 420px;
+    }
+
+    .header .button {
+        font-size: 25px;
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a:link,
+    nav ul li a:visited {
+        color: #000;
+        font-size: 40px;
+        letter-spacing: 5px;
+        line-height: 125px;
+    }
+
+    .mobile-nav-back {
+        height: 731px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.4);
+        -webkit-backdrop-filter: blur(25px);
+        backdrop-filter: blur(25px);
+        display: none;
+        z-index: 100;
+    }
+
+    .mobile-nav-icon {
+        margin-top: 10px;
+        width: 55px;
+        height: 55px;
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        right: 5%;
+    }
+
+    nav ul {
+        display: none;
+        font-weight: bold;
+        z-index: 200;
+    }
+}
+
+/* Responsive contact */
+@media(max-width: 768px) {
+    .contact {
+        width: 100%;
+        padding-left: 30%;
+    }
+
+    .contact textarea {
+        font-size: 28px;
+        height: 150px;
+        width: 80%;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .contact input [type="text"],
+    .contact textarea {
+        display: block;
+        height: 100px;
+        width: 500px;
+        margin: 5px 0;
+        border: 1px solid #3a1899;
+        border-radius: 5%;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 5px grey;
+    }
+
+    .contact input[type="submit"] {
+        font-size: 30px;
+        padding: 10px 12px;
+        margin: 15px;
+        background-color: #141313;
+        color: #fff;
+        border: 1px solid #4c4c4c;
+        border-radius: 10%;
+        text-transform: uppercase;
+    }
+
+    .contact-info a {
+        font-size: 33px;
+    }
+
+    .name h3 {
+        font-size: 33px;
+    }
+
+    .residence h3 {
+        font-size: 30px;
+    }
+}
+
+/***** Table *****/
+@media(max-width: 768px) {
+    .prices table {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1rf));
+        display: flow-root;
+        width: 800px;
+    }
+
+    .prices table,
+    .prices th,
+    .prices td {
+        line-height: 40px;
+    }
+}
+
+/***** Responsive footer *****/
+@media(max-width: 768px) {
+    .footer {
+        width: 100%;
+    }
+
+    .footer .container1 {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        position: unset;
+        font-size: 35px;
+    }
+
+    .footer .container1 .sci ul li a {
+        font-size: 45px;
+    }
+
+    .copyrightText {
+        padding: 20px 40px 30px;
+    }
+}
+
+@media(max-width: 557px) {
+    .footer {
+        width: 100%;
+    }
+
+    .footer .container1 {
+        width: 100%;
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px
+    }
+
+    .footer .container1 .sec h4,
+    .sec-contact h4 {
+        font-size: 45px;
+        color: #333;
+        font-weight: 600;
+        margin-bottom: 15px;
+        justify-content: center;
+        padding: 20px 40px 30px;
+    }
+
+    .footer .container1 .quicklinks ul li a {
+        color: #555;
+        text-decoration: none;
+        margin-bottom: 10px;
+        justify-content: center;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 39px;
+    }
+
+    .footer .container1 .sec-contact .info li a {
+        color: #555;
+        text-decoration: none;
+        margin-right: 200px;
+    }
+
+    .footer .container1 .sec-contact .info .fa-solid {
+        font-size: 45px;
+    }
+
+    .footer .container1 .sec-contact .info p a {
+        padding-left: 70px;
+    }
+
+}
