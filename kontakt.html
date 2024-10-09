@@ -71,21 +71,20 @@
         </section>
     </main>
 
-
-    <div class="container">
-        <div class="contact">
-            <form action="">
-                <textarea name="text" id="text" placeholder="Jméno a Příjmení" cols="30" rows="10"></textarea>
-
-                <textarea name="email" id="email" placeholder="Váš e-mail" cols="30" rows="10"></textarea><br>
-
-                <textarea name="text" id="text" placeholder="Vaše zpráva" cols="30" rows="10"
-                    style="width: 500px; height: 100px;"></textarea><br>
-
-                <strong><input type="submit" value="Odeslat"></strong>
+    <main>
+        <section class="form">
+            <form action="contact.php" method="POST">
+                <input type="text" name="jmeno_a_prijmeni" placeholder="Vaše jméno a příjmení:" autocomplete="off"
+                    required>
+                <br>
+                <input type="email" name="email" placeholder="Váš email:" autocomplete="off" required>
+                <textarea rows="5" cols="60" name="zprava" placeholder="Vaše zpráva:" autocomplete="off"
+                    required></textarea>
+                <input type="submit" value="Odeslat">
             </form>
-        </div>
-    </div>
+        </section>
+
+    </main>
 
 
 

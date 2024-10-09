@@ -38,6 +38,29 @@ window.onload = () => {
         });
     });
 };
+/*const email = document.querySelector("#email");
+const validateEmail = () => {
+    const email = document.querySelector("#email");
+    if (email.value.includes("@")) {
+        email.style.border = "2px solid green";
+        return true;
+    } else {
+        email.style.border = "2px solid red";
+        return false;
+    }
+};
+email.onblur = validateEmail;
+email.onfocus = () => {
+    email.style.border = "1px solid #4c4c4c";
+};
+document.querySelector("form").onsubmit = (event) => {
+    if (!validateEmail()) {
+        event.preventDefault();
+    }
+};*/
+
+
+
 
 (function ($) {
     $(function () {

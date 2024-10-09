@@ -382,10 +382,11 @@ picture img {
 }
 
 /***** Contact form *****/
-.contact {
+/*.contact {
     max-width: 700px;
     padding-bottom: 200px;
     padding-left: 12%;
+    margin: 30px;
     letter-spacing: 10px;
     color: #000;
 }
@@ -393,12 +394,16 @@ picture img {
 .contact input [type="text"],
 .contact textarea {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 5px 0;
     border: 1px solid #3a1899;
     border-radius: 5%;
     margin-bottom: 20px;
     box-shadow: 5px 5px 5px grey;
+}
+
+.contact textarea {
+    height: 120px;
 }
 
 .contact input[type="submit"] {
@@ -423,7 +428,54 @@ picture img {
     width: 80%;
     padding: 10px;
     font-weight: bold;
+}*/
+
+input {
+    background-color: white;
+    max-width: 70%;
+    margin-left: 28%;
+    font-size: 18px;
+    padding: 9px 9px;
+    border-radius: 10px;
+    border-color: #000;
+    border: 1px solid #000;
+    margin-bottom: 35px;
+    box-shadow: 5px 5px 5px grey;
 }
+
+textarea {
+    background-color: white;
+    max-width: 70%;
+    height: 90px;
+    margin-left: 28%;
+    font-size: 18px;
+    padding: 9px 9px;
+    border-radius: 10px;
+    border-color: #000;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 35px;
+}
+
+
+input[type="submit"] {
+    padding: 7px 7px;
+    margin-left: 28%;
+    font-size: 18px;
+    background-color: #141313;
+    color: #fff;
+    border: 1px solid #4c4c4c;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #045831b0;
+    color: white;
+    transition: background-color 0.5s;
+}
+
 
 /***** Table *****/
 .prices table {
